@@ -1,11 +1,9 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
+
     public class Lever : MonoBehaviour {
-    private bool on = false;
-    private bool interpolating = false;
-    private float currentInterpolationTime = 0.0f;
-    private InputAction interactAction;
     [SerializeField]
     private float switchTime;
     [SerializeField]
@@ -14,8 +12,30 @@ using UnityEngine.InputSystem;
     private Transform offPosition;
     [SerializeField]
     private GameObject leverHandle;
+    
+    private bool on = false;
+    private bool interpolating = false;
+    private float currentInterpolationTime = 0.0f;
+    private bool playerInRange = false;
+    private bool leverLocked = false;
+    public UnityEvent<bool> onLeverToggled;
+    private InputAction interactAction;
+ 
     void Start() {
         this.interactAction = InputSystem.actions.FindAction("Interact");
+    }
+    
+    void ToggleLever() {
+        this.on = !this.on;
+        this.onLeverToggled.Invoke(this.on);
+        this.StartCoroutine(this.InterpolateLeverCoroutine());
+    }
+
+    void FixedUpdate()
+    {
+        if(this.interactAction.WasPressedThisFrame() && !this.interpolating && this.playerInRange && !leverLocked) {
+            this.ToggleLever();
+        }
     }
     IEnumerator InterpolateLeverCoroutine() {
         this.interpolating = true;
@@ -44,13 +64,25 @@ using UnityEngine.InputSystem;
         this.leverHandle.transform.SetPositionAndRotation(targetPosition, targetRotation);
         this.interpolating = false;
     }
-    void ToggleLever() {
-        this.on = !this.on;
-        this.StartCoroutine(this.InterpolateLeverCoroutine());
-    }
-    void Update() {
-        if(this.interactAction.WasPressedThisFrame() && !this.interpolating) {
-            this.ToggleLever();
+
+    // Trigger colliders to determine if the player is in range to interact with the lever.
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.tag + " entered lever trigger.");
+        if(other.CompareTag("Player")) {
+            this.playerInRange = true;
         }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        Debug.Log(other.tag + " exited lever trigger.");
+        if(other.CompareTag("Player")) {
+            this.playerInRange = false;
+        }
+    }
+
+    public void SetLeverLocked(bool locked) {
+        this.leverLocked = locked;
     }
 }
