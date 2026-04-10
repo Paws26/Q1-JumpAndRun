@@ -117,6 +117,7 @@ MonoBehaviour:
   speed: 1
   reverseAtEnd: 1
   controlledByLever: 0
+  controlledByPlayer: 0
   onLockedStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -139,5 +140,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.1, z: 0.9}
+  m_Size: {x: 0.7, y: 0.1, z: 0.7}
   m_Center: {x: 0, y: 0.35, z: 0}

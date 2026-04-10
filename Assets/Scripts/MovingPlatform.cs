@@ -69,7 +69,7 @@ public class MovingPlatform : MonoBehaviour
         }
     }
 
-    public void SetPlatformActive(bool active)
+    public void ActivatePlatformLever(bool active)
     {
         isLeverActivated = active;
         if (isLeverActivated && !isPlatformMoving)
@@ -80,6 +80,12 @@ public class MovingPlatform : MonoBehaviour
         {
             onLockedStateChanged.Invoke(true);
         }
+    }
+
+    // Activate platform once, e.g. from a button press event
+    public void ActivatePlatform()
+    {
+        isPlatformMoving = true;
     }
 
     public Vector3 GetVelocity()
