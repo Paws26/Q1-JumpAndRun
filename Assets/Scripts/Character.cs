@@ -66,7 +66,7 @@ public class Character : MonoBehaviour
             MovingPlatform platform = hit.collider.GetComponent<MovingPlatform>();
             if (platform != null)
             {
-                platformVelocity = platform.GetVelocity();
+                platformVelocity = platform.Velocity;
             }
         }
         return platformVelocity;
@@ -75,11 +75,10 @@ public class Character : MonoBehaviour
     void FixedUpdate()
     {
         this.HandleJumping();
-        var platformVelocity = this.GetPlatformVelocity();
         var inputMovement = this.moveAction.ReadValue<Vector2>();
         var inputRightDirection = this.cameraTransform.right;
         var inputForwardDirection = this.cameraTransform.forward;
-        var combinedMovement = this.characterMovement + platformVelocity * Time.fixedDeltaTime;
+        
         inputRightDirection.y = 0.0f;
         inputForwardDirection.y = 0.0f;
         inputRightDirection.Normalize();
@@ -88,10 +87,6 @@ public class Character : MonoBehaviour
         //Since we do not use the physics system, we have to simulate gravity ourselves
         if(this.controller.isGrounded) {
             this.characterGravity.y = 0.0f;
-            if (platformVelocity != Vector3.zero)
-            {
-                this.controller.Move(combinedMovement);
-            }
         }
 
         this.characterGravity.y += this.gravity * Time.fixedDeltaTime;
@@ -107,6 +102,8 @@ public class Character : MonoBehaviour
             this.transform.forward = characterForward.normalized;
         }
 
-        this.controller.Move(this.characterMovement);
+        var platformVelocity = this.GetPlatformVelocity();
+        var combinedMovement = this.characterMovement + platformVelocity * Time.fixedDeltaTime;
+        this.controller.Move(combinedMovement);
     }
 }

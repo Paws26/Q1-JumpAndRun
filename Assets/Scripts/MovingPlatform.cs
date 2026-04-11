@@ -12,6 +12,8 @@ public class MovingPlatform : MonoBehaviour
     private int currentWaypointIndex = 0;
     private bool isLeverActivated;
     private bool isPlatformMoving;
+    public Vector3 velocity;
+    public Vector3 Velocity { get => velocity; set => velocity = value; }
     public UnityEvent<bool> onLockedStateChanged;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -36,7 +38,10 @@ public class MovingPlatform : MonoBehaviour
 
         Transform targetWaypoint = waypoints[currentWaypointIndex];
         Vector3 direction = (targetWaypoint.position - transform.position).normalized;
-        transform.position += direction * speed * Time.fixedDeltaTime;
+        Vector3 target = transform.position + direction * speed * Time.fixedDeltaTime;
+        Velocity = (target - transform.position) / Time.fixedDeltaTime;
+        //transform.position += direction * speed * Time.fixedDeltaTime;
+        transform.position = target;
 
         // Check if the platform has reached the target waypoint
         if (Vector3.Distance(transform.position, targetWaypoint.position) < 0.1f)
@@ -87,15 +92,15 @@ public class MovingPlatform : MonoBehaviour
     {
         isPlatformMoving = true;
     }
-
+    /*
     public Vector3 GetVelocity()
     {
         if (waypoints.Length == 0 || !isPlatformMoving) return Vector3.zero;
 
         Transform targetWaypoint = waypoints[currentWaypointIndex];
-        Vector3 direction = (targetWaypoint.position - transform.position).normalized;
-        return direction * speed;
-    }
+        Vector3 direction = (targetWaypoint.position - transform.localPosition) / Time.fixedDeltaTime;
+        return direction;
+    }*/
 
     void OnTriggerEnter(Collider other)
     {
