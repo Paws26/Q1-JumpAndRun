@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class Character : MonoBehaviour
+public class OldCharacter : MonoBehaviour
     {
     private bool isJumping = false;
     private float jumpCooldownTimer;
@@ -24,7 +24,6 @@ public class Character : MonoBehaviour
     private Vector3 jumpVelocity;
     private Vector3 characterGravity;
     [SerializeField] private LayerMask platformLayerMask;
-    private MovingPlatform currentPlatform;
 
     void Start()
     {
@@ -47,7 +46,6 @@ public class Character : MonoBehaviour
             this.jumpVelocity.y = this.jumpSpeed;
             this.jumpCooldownTimer = this.jumpCooldown;
             this.isJumping = true;
-            this.currentPlatform = null;
         }
 
         if (this.jumpVelocity.y > 0.0f) {
@@ -69,12 +67,7 @@ public class Character : MonoBehaviour
             if (platform != null)
             {
                 platformVelocity = platform.Velocity;
-                this.currentPlatform = platform;
             }
-        }
-        else
-        {
-            this.currentPlatform = null;
         }
         return platformVelocity;
     }
@@ -91,19 +84,16 @@ public class Character : MonoBehaviour
         inputRightDirection.Normalize();
         inputForwardDirection.Normalize();
 
-        var platformVelocity = this.GetPlatformVelocity();
-
         //Since we do not use the physics system, we have to simulate gravity ourselves
         if(this.controller.isGrounded) {
             this.characterGravity.y = 0.0f;
         }
 
         this.characterGravity.y += this.gravity * Time.fixedDeltaTime;
-
         this.characterMovement += this.characterGravity * Time.fixedDeltaTime;
         this.characterMovement += this.jumpVelocity * Time.fixedDeltaTime;
         this.characterMovement += inputRightDirection * inputMovement.x * this.characterSpeed * Time.fixedDeltaTime;
-        this.characterMovement += inputForwardDirection * inputMovement.y * this.characterSpeed * Time.fixedDeltaTime;
+        this.characterMovement += inputForwardDirection * inputMovement.y * this.characterSpeed * Time. fixedDeltaTime;
         this.characterMovement *= (1 - this.dampening);
         Vector3 characterForward = this.characterMovement;
         characterForward.y = 0.0f;
@@ -112,11 +102,8 @@ public class Character : MonoBehaviour
             this.transform.forward = characterForward.normalized;
         }
 
-        var combinedMovement = this.characterMovement;
-        if (this.controller.isGrounded && this.currentPlatform != null)
-        {
-            combinedMovement += platformVelocity * Time.fixedDeltaTime;
-        }
+        var platformVelocity = this.GetPlatformVelocity();
+        var combinedMovement = this.characterMovement + platformVelocity * Time.fixedDeltaTime;
         this.controller.Move(combinedMovement);
     }
 }
