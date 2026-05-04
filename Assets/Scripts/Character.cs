@@ -20,20 +20,28 @@ public class Character : MonoBehaviour
     private float dampening;
     [SerializeField]
     private Transform cameraTransform;
+    [SerializeField] private LayerMask platformLayerMask;
+    private Animator animator;
     private Vector3 characterMovement;
     private Vector3 jumpVelocity;
     private Vector3 characterGravity;
-    [SerializeField] private LayerMask platformLayerMask;
+    
     private MovingPlatform currentPlatform;
 
     void Start()
     {
         this.controller = this.GetComponent<CharacterController>();
+        this.animator = this.GetComponent<Animator>();
         this.moveAction = InputSystem.actions.FindAction("Move");
         this.jumpAction = InputSystem.actions.FindAction("Jump");
         this.jumpCooldownTimer = 0.0f;
     }
 
+    private void SetAnimationState(Vector2 inputMovement)
+    {
+        this.animator.SetFloat("RunningSpeed", inputMovement.magnitude);
+        this.animator.SetBool("isJumping", this.isJumping);
+    }
     void HandleJumping()
     {
         if (this.controller.isGrounded && this.isJumping && this.jumpCooldownTimer <= 0.0f) {
@@ -85,6 +93,7 @@ public class Character : MonoBehaviour
         var inputMovement = this.moveAction.ReadValue<Vector2>();
         var inputRightDirection = this.cameraTransform.right;
         var inputForwardDirection = this.cameraTransform.forward;
+        this.SetAnimationState(inputMovement);
         
         inputRightDirection.y = 0.0f;
         inputForwardDirection.y = 0.0f;
@@ -113,7 +122,7 @@ public class Character : MonoBehaviour
         }
 
         var combinedMovement = this.characterMovement;
-        if (this.controller.isGrounded && this.currentPlatform != null)
+        if (/*this.controller.isGrounded && */this.currentPlatform != null)
         {
             combinedMovement += platformVelocity * Time.fixedDeltaTime;
         }
