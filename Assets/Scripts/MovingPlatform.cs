@@ -101,7 +101,6 @@ public class MovingPlatform : MonoBehaviour
             // Snap to the waypoint
             transform.position = toPos;
             Velocity = Vector3.zero;
-            Debug.Log($"Platform Velocity: {Velocity}");
 
             // Check if we're about to reach the end of the path
             if (toIndex == waypointPositions.Count - 1)
@@ -140,7 +139,6 @@ public class MovingPlatform : MonoBehaviour
             // Move towards the target waypoint
             transform.position += direction * moveDistance;
             Velocity = direction * currentSpeed;
-            Debug.Log($"Platform Velocity: {Velocity}");
         }
     }
 

@@ -1,12 +1,10 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.InputSystem;
+using static Unity.Collections.AllocatorManager;
 public class Character : MonoBehaviour
     {
-    private bool isJumping = false;
-    private float jumpCooldownTimer;
-    private CharacterController controller;
-    private InputAction moveAction;
-    private InputAction jumpAction;
+    [Header("Character Settings")]
     [SerializeField]
     private float jumpCooldown;
     //We set gravity lower than in real live as it is more fun!
@@ -18,6 +16,16 @@ public class Character : MonoBehaviour
     private float jumpSpeed;
     [SerializeField]
     private float dampening;
+
+    [Header("Audio Settings")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioMixerGroup sfxMixerGroup;
+    [SerializeField] private AudioClip footstepSound;
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] [Range(0f, 1f)] private float footstepVolume;
+    [SerializeField] [Range(0f, 1f)] private float jumpVolume;
+
+    [Header("References")]
     [SerializeField]
     private Transform cameraTransform;
     [SerializeField] private LayerMask platformLayerMask;
@@ -25,9 +33,20 @@ public class Character : MonoBehaviour
     private Vector3 characterMovement;
     private Vector3 jumpVelocity;
     private Vector3 characterGravity;
-    
     private MovingPlatform currentPlatform;
+    private bool isJumping = false;
+    private float jumpCooldownTimer;
+    private CharacterController controller;
+    private InputAction moveAction;
+    private InputAction jumpAction;
 
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.outputAudioMixerGroup = sfxMixerGroup;
+        audioSource.spatialBlend = 1f; // Make the sound 3D
+    }
     void Start()
     {
         this.controller = this.GetComponent<CharacterController>();
@@ -35,6 +54,7 @@ public class Character : MonoBehaviour
         this.moveAction = InputSystem.actions.FindAction("Move");
         this.jumpAction = InputSystem.actions.FindAction("Jump");
         this.jumpCooldownTimer = 0.0f;
+        audioSource.clip = footstepSound;
     }
 
     private void SetAnimationState(Vector2 inputMovement)
@@ -42,6 +62,7 @@ public class Character : MonoBehaviour
         this.animator.SetFloat("RunningSpeed", inputMovement.magnitude);
         this.animator.SetBool("isJumping", this.isJumping);
     }
+
     void HandleJumping()
     {
         if (this.controller.isGrounded && this.isJumping && this.jumpCooldownTimer <= 0.0f) {
@@ -127,5 +148,19 @@ public class Character : MonoBehaviour
             combinedMovement += platformVelocity * Time.fixedDeltaTime;
         }
         this.controller.Move(combinedMovement);
+    }
+
+    public void PlayFootstepSound()
+    {
+        audioSource.volume = Random.Range(footstepVolume * 0.8f, footstepVolume);
+        audioSource.pitch = Random.Range(0.85f, 1.1f);
+        audioSource.PlayOneShot(footstepSound);
+    }
+
+    public void PlayJumpSound()
+    {
+        audioSource.volume = Random.Range(jumpVolume * 0.8f, jumpVolume);
+        audioSource.pitch = Random.Range(0.7f, 0.8f);
+        audioSource.PlayOneShot(jumpSound);
     }
 }
