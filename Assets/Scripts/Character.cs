@@ -5,6 +5,10 @@ using static Unity.Collections.AllocatorManager;
 public class Character : MonoBehaviour
     {
     [Header("Character Settings")]
+    [SerializeField] private float maxHealth;
+    private float currentHealth;
+    public float GetCurrentHealth() => this.currentHealth;
+    public float GetMaxHealth() => this.maxHealth;
     [SerializeField]
     private float jumpCooldown;
     //We set gravity lower than in real live as it is more fun!
@@ -41,6 +45,17 @@ public class Character : MonoBehaviour
     private InputAction jumpAction;
 
 
+    public void InflictDamage(float damageAmount)
+    {
+        this.currentHealth -= damageAmount;
+        this.currentHealth = Mathf.Clamp(this.currentHealth, 0.0f, this.maxHealth);
+    }   
+
+    public void ResetHealth()
+    {
+        this.currentHealth = this.maxHealth;
+    }
+
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
@@ -49,6 +64,7 @@ public class Character : MonoBehaviour
     }
     void Start()
     {
+        this.currentHealth = this.maxHealth;
         this.controller = this.GetComponent<CharacterController>();
         this.animator = this.GetComponent<Animator>();
         this.moveAction = InputSystem.actions.FindAction("Move");
@@ -110,6 +126,7 @@ public class Character : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (this.controller.enabled == false) return;
         this.HandleJumping();
         var inputMovement = this.moveAction.ReadValue<Vector2>();
         var inputRightDirection = this.cameraTransform.right;
@@ -162,5 +179,10 @@ public class Character : MonoBehaviour
         audioSource.volume = Random.Range(jumpVolume * 0.8f, jumpVolume);
         audioSource.pitch = Random.Range(0.7f, 0.8f);
         audioSource.PlayOneShot(jumpSound);
+    }
+
+    public void SetPlayerControllerState(bool isEnabled)
+    {
+        this.controller.enabled = isEnabled;
     }
 }

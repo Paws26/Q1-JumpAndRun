@@ -6,6 +6,7 @@ public class SawHandler : MonoBehaviour
 {
     [Header("Saw Settings")]
     [SerializeField] private float rotationSpeed = 360f;
+    [SerializeField] private float damagePerSecond = 10f;
 
     [Header("Audio Settings")]
     [SerializeField] private AudioSource audioSource;
@@ -40,6 +41,18 @@ public class SawHandler : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             SetState(true);
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Character character = other.GetComponentInChildren<Character>();
+            if (character != null)
+            {
+                character.InflictDamage(this.damagePerSecond * Time.deltaTime); // Inflict damage over time
+            }
         }
     }
 

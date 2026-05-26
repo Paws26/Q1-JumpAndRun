@@ -9,10 +9,17 @@ public class EnemyAI : MonoBehaviour
 
     [Header("Chase Settings")]
     [SerializeField]
-    private float runSpeed = 1f; 
+    private float runSpeed = 1f;
+
+    [Header("Damage Settings")]
+    [SerializeField]
+    private int damageAmount = 10;
+    [SerializeField]
+    private float damageCooldown = 1f;
 
     private NavMeshAgent agent;
     private Animator animator;
+    
     
     private Transform playerTarget;
     private bool isChasing = false;
@@ -20,7 +27,7 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>();
         
         agent.speed = walkSpeed;
         SetNewRandomDestination();
@@ -37,11 +44,13 @@ public class EnemyAI : MonoBehaviour
             SetNewRandomDestination();
         }
         
-
-        // 2. Tell the Animator how fast we are moving to play the walk animation
         if (animator != null)
         {
             animator.SetFloat("Speed", agent.velocity.magnitude); 
+        }
+        if (damageCooldown > 0)
+        {
+            damageCooldown -= Time.deltaTime;
         }
     }
 
@@ -68,7 +77,7 @@ public class EnemyAI : MonoBehaviour
     public void Die()
     {
         agent.enabled = false;
-        // Optionally, play a death animation here
+
         /*if (animator != null)
         {
             animator.SetTrigger("Die");
@@ -92,6 +101,30 @@ public class EnemyAI : MonoBehaviour
             playerTarget = null;
             agent.speed = walkSpeed;
             isChasing = false;
+        }
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Enemy collided with player!");
+            if (damageCooldown <= 0)
+            {
+                collision.gameObject.GetComponent<Character>().InflictDamage(damageAmount);
+                damageCooldown = 1f; // Reset cooldown (in seconds)
+            }
+        }
+    }
+
+    void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (damageCooldown <= 0)
+            {
+                collision.gameObject.GetComponent<Character>().InflictDamage(damageAmount);
+                damageCooldown = 1f; // Reset cooldown (in seconds)
+            }
         }
     }
 }

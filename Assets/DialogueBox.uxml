@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/KenneyRPGUI/PNG/buttonLong_brown_pressed.png?fileID=2800000&amp;guid=7ccb5e04df5aca647a1e0a8fe5481f14&amp;type=3#buttonLong_brown_pressed&quot;); width: auto; min-width: auto; min-height: 0%; max-height: 20%; height: auto; bottom: auto; top: 80%;">
+        <ui:Label text="Green Platforms: Player/Button Controlled (Jump once if it doesn&apos;t start)&#10;&#10;Blue Platforms: Lever Controlled" style="top: 13%; left: 3%; bottom: 15%; flex-grow: 1; min-height: 5%; max-height: 75%; font-size: 40px; -unity-font-style: bold; color: rgb(21, 0, 106); white-space: normal; min-width: auto; max-width: 94%; right: auto;"/>
+    </ui:VisualElement>
+</ui:UXML>

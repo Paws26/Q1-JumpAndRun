@@ -19,7 +19,7 @@ public class Coin : MonoBehaviour
         {
             return;
         }
-
+        UIManager.Instance.CollectCoin();
         var collectSoundObject = new GameObject("CoinCollectSound");
         collectSoundObject.transform.position = transform.position;
         var audioSource = collectSoundObject.AddComponent<AudioSource>();

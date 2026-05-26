@@ -1,0 +1,2617 @@
+fileFormatVersion: 2
+guid: 89971079ea1e01745b7202ed898d5afa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: club-penguin-dance_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12582
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c6e66feb69e4f4b8e18452d95d9bfc
+      internalID: 14778655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 12582
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73291da578e520643881d32b360f0a08
+      internalID: 1173333680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_2
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 12582
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f96f33354b3194e88ae4e0cb36fabd
+      internalID: 1477629268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_3
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 12582
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f3a9596f740544eb17f68a747d1e54
+      internalID: 719460704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_4
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 12582
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c802b8830b8fe14a9341aadcf2c6d3a
+      internalID: -1385013043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_5
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 12582
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9837b28e301db4ba38a5d5c6d175cf
+      internalID: -180830805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_6
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 12582
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0947dd9e81e2ad54fb29c0b8c3940ed9
+      internalID: -461189993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12116
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834703fbc6b517048832a8e9c5df747b
+      internalID: -1271269152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_8
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 12116
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0767117c3bd8f954ab5b0db7808a8d3a
+      internalID: -605294607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_9
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 12116
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3d14a9150a0f74b945d9920eafa09f
+      internalID: 1421666027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_10
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 12116
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcebbfb46eebb2428adc9690c435500
+      internalID: -1787194046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_11
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 12116
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0f1e1f3a7b37247a66187dae6089fe
+      internalID: 1673545510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_12
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 12116
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e81d586cd932f46b328d4af1e7c2d7
+      internalID: -1689943267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_13
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 12116
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c57293ef21636458910ae02e0f2126
+      internalID: 1743706479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11650
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78193f439829d9940a5b1158da1ad679
+      internalID: 811205167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_15
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 11650
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2038022379ff84e4cb35c69c228817fc
+      internalID: -36589389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_16
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 11650
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a1f7a1493c5db498f4164591ca3004
+      internalID: -1989255111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_17
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 11650
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b57978408fd674cadcc8b2a33dab70
+      internalID: -838942996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_18
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 11650
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221d1adabbfc786498854c665b5020b2
+      internalID: -253993855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_19
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 11650
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9a2e248656ece488ce0b892cb97eb5
+      internalID: 1219237437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_20
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 11650
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0d3e5eb611e2842aec17a9001a3f42
+      internalID: 754552877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11184
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b890e19b329f8594e9e6c100e9a4ada8
+      internalID: 113332004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 11184
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d0d27a62c17fa409712e60b834cdbb
+      internalID: 1289555874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_23
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 11184
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f7a8e9329e2d940af51b1bd039af93
+      internalID: -1798950406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_24
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 11184
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f3935aa06336043a43a0cbcd493448
+      internalID: 1329536244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_25
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 11184
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef1ab6994b5b5142bb58b48b26e2160
+      internalID: 791748446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_26
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 11184
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9488bb0840b944190523d34f551b37
+      internalID: 1050524507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_27
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 11184
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d28e73d2346344bb2373b1636d9afe
+      internalID: 1868737913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10718
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f6be8fed80f504cbbe4c19990de1a7
+      internalID: 1622947638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 10718
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de478d0863e909243b226cf198c8cfb0
+      internalID: -769044215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_30
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 10718
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cd0f9ddaf65184eaf1fd1ced335921
+      internalID: -1797923217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_31
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 10718
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111743254fc6f264a9727269a0f63b25
+      internalID: -1291028279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_32
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 10718
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdcc9c8e4031aa48ad7c92852267865
+      internalID: -1560287595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_33
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 10718
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a354cc9d884d3f4e8c7a3f990c35e28
+      internalID: -1978864516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_34
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 10718
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c835d95b92ddb94c83c240ae6d74242
+      internalID: -1296240344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10252
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e8fc1506ecd7b4dabd42e62586408f
+      internalID: 766155837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_36
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 10252
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde65ce4df3008a4693387dc450cc37a
+      internalID: -973428440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_37
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 10252
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b19e83e9f5882140b78fb0314170c09
+      internalID: 897535994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_38
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 10252
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee48abe0bbe4e44798b7f571e5c06ac
+      internalID: 676262059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_39
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 10252
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149b3aba186dafe4d829934321844d93
+      internalID: 1330972559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_40
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 10252
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cbda746ef5b554a844f011125fc711
+      internalID: -1438540064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_41
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 10252
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9feb878ef4f4ba4ead98896bf89ea84
+      internalID: -1344126710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9786
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56f6f867bed0b648919074ba09b6f05
+      internalID: 1072543194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_43
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 9786
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45b40ce576c51e4d9aeccbb79f91eb2
+      internalID: 1894805887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_44
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 9786
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e9a91496effad4b989642765edc175
+      internalID: 768416110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_45
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 9786
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8f96e83b077d1408cf9e9accaa7ba8
+      internalID: 2109491930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_46
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 9786
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e85a5e689a0934db45de4cb050fef4
+      internalID: -1080187725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_47
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 9786
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c885f985b5f546b4d88cd7c2c7edc8b7
+      internalID: -945210654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_48
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 9786
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908d1ad1b464c7544b327619dded7bfb
+      internalID: 1389014839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9320
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff86d83c94155e4cbf6c8b231ae5864
+      internalID: 1684010525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_50
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 9320
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1901849a126da4f8cced7e7253f470
+      internalID: 1901312423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_51
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 9320
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b71e6be0f3a734ca986b3bf971d550
+      internalID: 1780635353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_52
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 9320
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cef5fc25ca16343b25ba6a13b9e493
+      internalID: -760349242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_53
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 9320
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c5107442c485743a737c4683f52493
+      internalID: -907511811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_54
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 9320
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c67fa923443aa9458fdea98e23b12a2
+      internalID: 1337386109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_55
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 9320
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680f319aa2f11ed44873c23d3e0c524d
+      internalID: -1914546637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8854
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1c8491a3169be44a5315382441c419
+      internalID: 1901451977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_57
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 8854
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79a62fff831d4646829e27069f7a40d
+      internalID: 738307438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_58
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 8854
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd4b8fa36699094a9649bdec2bccde5
+      internalID: 177016104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_59
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 8854
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbf761396a5f42489c4deabd7f8b866
+      internalID: 763237218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_60
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 8854
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0924b0cde6cdd634ea7bb8ba6abf0acd
+      internalID: -156669106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_61
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 8854
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ea6ad307b3f774abe5469e670ee500
+      internalID: -1874544533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_62
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 8854
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32aeb6b7744cd14bba3dd09694b7586
+      internalID: 991540191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8388
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d8977e53c4bc74da8038bf55c560c8
+      internalID: 884258536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_64
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 8388
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da0bd69c5ca79d4a8157c1fa1a874e0
+      internalID: -513779254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_65
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 8388
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc4ec901e4153647af3d82011a5269a
+      internalID: -129672418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_66
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 8388
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1768d4cde867e574f91ed50ff4e948e2
+      internalID: 268768039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_67
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 8388
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2757c6048777241aef57029839b9a9
+      internalID: 789659399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_68
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 8388
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81acf9e0b6d2e247a533c60003c91d0
+      internalID: -1251015164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_69
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 8388
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7940ea1c8a0894595c69decfbbde80
+      internalID: 776776676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7922
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e568a699cac8a4a4fbecefefa7cc86b3
+      internalID: 1638280131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_71
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 7922
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb1015842a07424f865d5a55f1969ed
+      internalID: -1544376494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_72
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 7922
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad62d988fc8a65c43bb59c12c2cca953
+      internalID: 1573575854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_73
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 7922
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527a286007afd8f4e90d587f1e0dac01
+      internalID: 816627334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_74
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 7922
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36f0fac2735dd244a19f2c6cb2eb2a9
+      internalID: 1204606741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_75
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 7922
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d20b6b2a825b07489299200c6e974b9
+      internalID: -1407451039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_76
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 7922
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061ca6620264d6446bb94a5d49f0805d
+      internalID: -1042225558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7456
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca35ffea42303574f9c762fbf0a78475
+      internalID: 681401204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_78
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 7456
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df98633cd1f6db4291c69625b231a6b
+      internalID: -1066639952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_79
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 7456
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0201219578b339e4dbb906c0e485530e
+      internalID: 275692608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_80
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 7456
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349070d5f7fad34e8f4079624b53297
+      internalID: 1320190119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_81
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 7456
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69279c75b42fcb341854074d98ff624c
+      internalID: 2092349977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_82
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 7456
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee2fb1c3e7dc664194c4d1d90ed1933
+      internalID: -1686426991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_83
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 7456
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab53205d68ad6164ba15743561644774
+      internalID: 1260977941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6990
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88233e0887b107544a41d3739a867a85
+      internalID: 421263565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_85
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 6990
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c8acf0193c0aa408ea847ad0dd55f0
+      internalID: 280118829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_86
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 6990
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b423cb828c7684ca1d06f83ff49e97
+      internalID: -2067278541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_87
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 6990
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d462cc9a08ceb4984e00a87a4e7724
+      internalID: 463887758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_88
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 6990
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ffa20a4717376489a4702aca48f071
+      internalID: 358771440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_89
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 6990
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9d8b145f2f80b4c8fd65c03fb8ab35
+      internalID: 803064591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_90
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 6990
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47465ef66bad1de4596d909b0caece53
+      internalID: -1624435469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6524
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a02be13c2df2a44e8cd735ff9da647d
+      internalID: 1408710384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_92
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 6524
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918e6c03f20648f4695c3598fd5df005
+      internalID: -463634117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_93
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 6524
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f743934ed2522244903a23c541c1145
+      internalID: -2067342625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_94
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 6524
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30905414e6e34b4c925107d1a651c2d
+      internalID: -1109017440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_95
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 6524
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06551b2b5a8e64c42815e8d24cf1dbee
+      internalID: 1178522595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_96
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 6524
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09ce5c307b057049b6b640d0d45f886
+      internalID: -1262286127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_97
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 6524
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5154657756dfff54aaf5f811b77524a4
+      internalID: 1990210317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6058
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14155114cda1a0408532de94af418a3
+      internalID: 1552671158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_99
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 6058
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9dcb0ee6980904693fb8c76fbefd00
+      internalID: -1409812882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_100
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 6058
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eeb9603b111cc4e87cc5f46ab81d07
+      internalID: 1982927096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_101
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 6058
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387f5446a8f1b2f4e96babd4f7bb0353
+      internalID: -1572707564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_102
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 6058
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a9a9213fc687048b3dc700a75d6e1c
+      internalID: 105781438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-dance_103
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 6058
+        width: 479
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe84d4f2a7d97224cbd04585174d07d6
+      internalID: 1736708628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 644f634dbb95e0147800972dd0c86aba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":479.0,"y":466.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      club-penguin-dance_0: 14778655
+      club-penguin-dance_1: 1173333680
+      club-penguin-dance_10: -1787194046
+      club-penguin-dance_100: 1982927096
+      club-penguin-dance_101: -1572707564
+      club-penguin-dance_102: 105781438
+      club-penguin-dance_103: 1736708628
+      club-penguin-dance_104: 1433743998
+      club-penguin-dance_105: 1997992235
+      club-penguin-dance_106: 1120251006
+      club-penguin-dance_107: -1904520388
+      club-penguin-dance_108: -518845940
+      club-penguin-dance_109: 542958660
+      club-penguin-dance_11: 1673545510
+      club-penguin-dance_110: -1203037859
+      club-penguin-dance_111: 1154337191
+      club-penguin-dance_112: 1420625303
+      club-penguin-dance_113: -381191704
+      club-penguin-dance_114: -1350107775
+      club-penguin-dance_115: 449379642
+      club-penguin-dance_116: -804566856
+      club-penguin-dance_117: -445386138
+      club-penguin-dance_118: -2113416687
+      club-penguin-dance_119: 1875454229
+      club-penguin-dance_12: -1689943267
+      club-penguin-dance_120: 284552456
+      club-penguin-dance_121: 1779349843
+      club-penguin-dance_122: 690955726
+      club-penguin-dance_123: 1779793357
+      club-penguin-dance_124: 310469225
+      club-penguin-dance_125: 425235713
+      club-penguin-dance_126: -1986776640
+      club-penguin-dance_127: 602514787
+      club-penguin-dance_128: -840465558
+      club-penguin-dance_129: -1389846196
+      club-penguin-dance_13: 1743706479
+      club-penguin-dance_130: -119663956
+      club-penguin-dance_131: -643501032
+      club-penguin-dance_132: 1411648367
+      club-penguin-dance_133: 1745641901
+      club-penguin-dance_134: -1928962501
+      club-penguin-dance_135: -494413780
+      club-penguin-dance_136: 240100553
+      club-penguin-dance_137: -1853333941
+      club-penguin-dance_138: 321211236
+      club-penguin-dance_139: 1396575394
+      club-penguin-dance_14: 811205167
+      club-penguin-dance_140: 1661674625
+      club-penguin-dance_141: 428357646
+      club-penguin-dance_142: -486293274
+      club-penguin-dance_143: -2050636852
+      club-penguin-dance_144: 260448704
+      club-penguin-dance_145: 349330662
+      club-penguin-dance_146: 1061846968
+      club-penguin-dance_147: -2097937078
+      club-penguin-dance_148: -720989192
+      club-penguin-dance_149: 2078656433
+      club-penguin-dance_15: -36589389
+      club-penguin-dance_150: 1186489792
+      club-penguin-dance_151: 1408691881
+      club-penguin-dance_152: 1187453267
+      club-penguin-dance_153: -609909613
+      club-penguin-dance_154: -2048220743
+      club-penguin-dance_155: 472190984
+      club-penguin-dance_156: -2008497451
+      club-penguin-dance_157: -823121669
+      club-penguin-dance_158: 1755586218
+      club-penguin-dance_159: 731395580
+      club-penguin-dance_16: -1989255111
+      club-penguin-dance_160: 1268803391
+      club-penguin-dance_161: 1340990573
+      club-penguin-dance_162: 1050274290
+      club-penguin-dance_163: -600551233
+      club-penguin-dance_164: -1744605885
+      club-penguin-dance_165: -1673015357
+      club-penguin-dance_166: -483569076
+      club-penguin-dance_167: -1019764984
+      club-penguin-dance_168: -401265673
+      club-penguin-dance_169: -1743479320
+      club-penguin-dance_17: -838942996
+      club-penguin-dance_170: 2046363462
+      club-penguin-dance_171: -273802695
+      club-penguin-dance_172: 971020143
+      club-penguin-dance_173: -2042886847
+      club-penguin-dance_174: -169221410
+      club-penguin-dance_175: -221431736
+      club-penguin-dance_176: -1576601272
+      club-penguin-dance_177: -1006690974
+      club-penguin-dance_178: 233238381
+      club-penguin-dance_179: -1389765532
+      club-penguin-dance_18: -253993855
+      club-penguin-dance_180: -1794876561
+      club-penguin-dance_181: -1917559886
+      club-penguin-dance_182: -9742278
+      club-penguin-dance_183: -1901757871
+      club-penguin-dance_184: -158421238
+      club-penguin-dance_185: -1905691977
+      club-penguin-dance_186: 295635347
+      club-penguin-dance_187: -1043518646
+      club-penguin-dance_188: -1677508639
+      club-penguin-dance_189: 1530755094
+      club-penguin-dance_19: 1219237437
+      club-penguin-dance_190: 1144334217
+      club-penguin-dance_191: -888905976
+      club-penguin-dance_192: -1312870977
+      club-penguin-dance_193: -2115386463
+      club-penguin-dance_194: -564556965
+      club-penguin-dance_195: 951980584
+      club-penguin-dance_196: -1806060051
+      club-penguin-dance_2: 1477629268
+      club-penguin-dance_20: 754552877
+      club-penguin-dance_21: 113332004
+      club-penguin-dance_22: 1289555874
+      club-penguin-dance_23: -1798950406
+      club-penguin-dance_24: 1329536244
+      club-penguin-dance_25: 791748446
+      club-penguin-dance_26: 1050524507
+      club-penguin-dance_27: 1868737913
+      club-penguin-dance_28: 1622947638
+      club-penguin-dance_29: -769044215
+      club-penguin-dance_3: 719460704
+      club-penguin-dance_30: -1797923217
+      club-penguin-dance_31: -1291028279
+      club-penguin-dance_32: -1560287595
+      club-penguin-dance_33: -1978864516
+      club-penguin-dance_34: -1296240344
+      club-penguin-dance_35: 766155837
+      club-penguin-dance_36: -973428440
+      club-penguin-dance_37: 897535994
+      club-penguin-dance_38: 676262059
+      club-penguin-dance_39: 1330972559
+      club-penguin-dance_4: -1385013043
+      club-penguin-dance_40: -1438540064
+      club-penguin-dance_41: -1344126710
+      club-penguin-dance_42: 1072543194
+      club-penguin-dance_43: 1894805887
+      club-penguin-dance_44: 768416110
+      club-penguin-dance_45: 2109491930
+      club-penguin-dance_46: -1080187725
+      club-penguin-dance_47: -945210654
+      club-penguin-dance_48: 1389014839
+      club-penguin-dance_49: 1684010525
+      club-penguin-dance_5: -180830805
+      club-penguin-dance_50: 1901312423
+      club-penguin-dance_51: 1780635353
+      club-penguin-dance_52: -760349242
+      club-penguin-dance_53: -907511811
+      club-penguin-dance_54: 1337386109
+      club-penguin-dance_55: -1914546637
+      club-penguin-dance_56: 1901451977
+      club-penguin-dance_57: 738307438
+      club-penguin-dance_58: 177016104
+      club-penguin-dance_59: 763237218
+      club-penguin-dance_6: -461189993
+      club-penguin-dance_60: -156669106
+      club-penguin-dance_61: -1874544533
+      club-penguin-dance_62: 991540191
+      club-penguin-dance_63: 884258536
+      club-penguin-dance_64: -513779254
+      club-penguin-dance_65: -129672418
+      club-penguin-dance_66: 268768039
+      club-penguin-dance_67: 789659399
+      club-penguin-dance_68: -1251015164
+      club-penguin-dance_69: 776776676
+      club-penguin-dance_7: -1271269152
+      club-penguin-dance_70: 1638280131
+      club-penguin-dance_71: -1544376494
+      club-penguin-dance_72: 1573575854
+      club-penguin-dance_73: 816627334
+      club-penguin-dance_74: 1204606741
+      club-penguin-dance_75: -1407451039
+      club-penguin-dance_76: -1042225558
+      club-penguin-dance_77: 681401204
+      club-penguin-dance_78: -1066639952
+      club-penguin-dance_79: 275692608
+      club-penguin-dance_8: -605294607
+      club-penguin-dance_80: 1320190119
+      club-penguin-dance_81: 2092349977
+      club-penguin-dance_82: -1686426991
+      club-penguin-dance_83: 1260977941
+      club-penguin-dance_84: 421263565
+      club-penguin-dance_85: 280118829
+      club-penguin-dance_86: -2067278541
+      club-penguin-dance_87: 463887758
+      club-penguin-dance_88: 358771440
+      club-penguin-dance_89: 803064591
+      club-penguin-dance_9: 1421666027
+      club-penguin-dance_90: -1624435469
+      club-penguin-dance_91: 1408710384
+      club-penguin-dance_92: -463634117
+      club-penguin-dance_93: -2067342625
+      club-penguin-dance_94: -1109017440
+      club-penguin-dance_95: 1178522595
+      club-penguin-dance_96: -1262286127
+      club-penguin-dance_97: 1990210317
+      club-penguin-dance_98: 1552671158
+      club-penguin-dance_99: -1409812882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

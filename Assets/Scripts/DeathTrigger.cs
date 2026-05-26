@@ -1,23 +1,18 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class RespawnTrigger : MonoBehaviour
+public class DeathTrigger : MonoBehaviour
 {
-    [SerializeField] private Transform respawnPoint;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     void OnTriggerEnter(Collider other)
     {
+        Character character = other.GetComponentInChildren<Character>();
+        if (character != null)
+        {
+            character.InflictDamage(character.GetMaxHealth()); // Inflict damage over time
+        }
+        
+        /*
         if (other.CompareTag("Player"))
         {
             CharacterController playerController = other.gameObject.GetComponent<CharacterController>();
@@ -27,6 +22,6 @@ public class RespawnTrigger : MonoBehaviour
                 other.transform.position = respawnPoint.position; // Move the player to the respawn point
                 playerController.enabled = true; // Re-enable the CharacterController
             }
-        }
+        }*/
     }
 }

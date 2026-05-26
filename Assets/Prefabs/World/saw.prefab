@@ -10,27 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.08384
+      value: -1.142
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.75469
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
-      propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.26972362
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.9629378
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
       propertyPath: m_LocalRotation.z
@@ -42,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -148.704
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fecfb1b0f497b314487acf9eb921b050, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -113,10 +113,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   rotationSpeed: 360
-  audioSource: {fileID: 0}
-  sfxMixerGroup: {fileID: 0}
-  idleSound: {fileID: 0}
-  cuttingSound: {fileID: 0}
+  damagePerSecond: 50
+  audioSource: {fileID: -3395990995446323766}
+  sfxMixerGroup: {fileID: 1496757128337859894, guid: 478ea9ca6aae0714cb696d982d7fc2fd, type: 2}
+  idleSound: {fileID: 8300000, guid: 81d04307f58372a489afb646315e94c7, type: 3}
+  cuttingSound: {fileID: 8300000, guid: 96a91141e5fb65d4b888e724e789886d, type: 3}
 --- !u!82 &-3395990995446323766
 AudioSource:
   m_ObjectHideFlags: 0
@@ -130,7 +131,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -139,9 +140,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 5
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -151,20 +152,20 @@ AudioSource:
     - serializedVersion: 3
       time: 0
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -2.9838579
+      outSlope: -2.9838579
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.33333334
+      outWeight: 0.07238691
     - serializedVersion: 3
-      time: 1
+      time: 0.99731445
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.72902757
+      outSlope: -0.72902757
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0.23859693
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
