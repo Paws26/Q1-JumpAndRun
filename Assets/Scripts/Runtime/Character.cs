@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
-using static Unity.Collections.AllocatorManager;
+using UnityEngine.Profiling;
+
 public class Character : MonoBehaviour
     {
     [Header("Character Settings")]
@@ -164,7 +165,9 @@ public class Character : MonoBehaviour
         {
             combinedMovement += platformVelocity * Time.fixedDeltaTime;
         }
+        Profiler.BeginSample("ControllerMove");
         this.controller.Move(combinedMovement);
+        Profiler.EndSample();
     }
 
     public void PlayFootstepSound()

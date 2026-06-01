@@ -1,0 +1,18 @@
+{
+    "name": "JumpAndRunEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c7425f8133553c056b5885ae9585e488"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

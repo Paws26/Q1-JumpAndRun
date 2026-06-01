@@ -1,6 +1,8 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
+using System.Linq;
 
 /// <summary>
 /// A moving platform that can follow a series of waypoints. 
@@ -13,12 +15,12 @@ using System.Collections.Generic;
 
 public class MovingPlatform : MonoBehaviour
 {
-    [SerializeField] private Transform[] waypoints;
-    [SerializeField] private float speed;
-    [SerializeField] private bool reverseAtEnd = false;
-    [SerializeField] private bool controlledByLever = false;
-    [SerializeField] private bool controlledByPlayer = false;
-    [SerializeField] private bool easeInOut = false;
+    public Transform[] waypoints;
+    public float speed;
+    public bool reverseAtEnd = false;
+    public bool controlledByLever = false;
+    public bool controlledByPlayer = false;
+    public bool easeInOut = false;
     private float easeDistance = 1f;
     private List<Vector3> waypointPositions;
     private int fromIndex = 0;
@@ -51,6 +53,16 @@ public class MovingPlatform : MonoBehaviour
         {
             // Uncontrolled: starts moving immediately
             isPlatformMoving = true;
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        var mf = this.GetComponent<MeshFilter>();
+        Gizmos.color = Color.grey;
+        foreach (Transform wp in waypoints)
+        {
+            Gizmos.DrawWireMesh(mf.sharedMesh, wp.position, Quaternion.identity);
         }
     }
 
